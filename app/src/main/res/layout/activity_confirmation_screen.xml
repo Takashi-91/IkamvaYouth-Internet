@@ -1,10 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
     android:layout_height="match_parent"
-    tools:context=".ConfirmationScreen">
+    android:background="#FAFDDF85"
+    android:gravity="center"
+    android:orientation="vertical">
 
+    <!-- Translucent Box Container -->
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="532dp"
+        android:background="@drawable/translucent_box"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-</RelativeLayout>
+        <!-- ImageView for the logo -->
+        <ImageView
+            android:layout_width="345dp"
+            android:layout_height="222dp"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/logo3" />
+
+        <!-- TextView for the welcome message -->
+
+        <!-- LinearLayout for the buttons -->
+        <TextView
+            android:layout_width="347dp"
+            android:layout_height="95dp"
+            android:fontFamily="@font/righteous"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="32dp"
+            android:text="@string/welcome_text"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <!-- Button for Teacher -->
+
+            <!-- Button for Student -->
+            <Button
+                android:id="@+id/button_teacher"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFCA28"
+                android:drawableTop="@drawable/teacher"
+                android:padding="16dp"
+                android:text="@string/teacher"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/button_student"
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="#FFCA28"
+                android:drawableTop="@drawable/student"
+                android:padding="16dp"
+                android:text="@string/student"
+                android:textColor="#000" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

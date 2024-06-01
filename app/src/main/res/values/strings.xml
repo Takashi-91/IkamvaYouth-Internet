@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ikamvaYouth</string>
+
+    <string name="app_name">IkamvaYouth</string>
+    <string name="welcome_text">Welcome To IkamvaYouth</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logo_description">IkamvaYouth Logo</string>
+    <string name="register">Register</string>
+    <string name="email">\@string</string>
 </resources>

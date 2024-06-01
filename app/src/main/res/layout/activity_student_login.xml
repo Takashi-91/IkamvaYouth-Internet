@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6D983"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="583dp"
+        android:background="@drawable/translucent_box"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="343dp"
+            android:layout_height="190dp"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/logo3" />
+
+        <TextView
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="32dp"
+            android:text="@string/login"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="332dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="332dp"
+            android:layout_height="51dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="325dp"
+            android:layout_height="63dp"
+            android:backgroundTint="#FFCA28"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/login"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+</LinearLayout>
