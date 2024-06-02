@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="379dp"
-        android:layout_height="555dp"
+        android:layout_height="621dp"
         android:background="@drawable/translucent_box"
         android:orientation="vertical"
         android:padding="16dp">
@@ -31,12 +31,12 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextUsername"
+            android:id="@+id/editTextEmail"
             android:layout_width="344dp"
             android:layout_height="52dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/edit_text_background"
-            android:hint="@string/username"
+            android:hint="@string/email"
             android:inputType="text"
             android:padding="8dp" />
 
@@ -53,11 +53,24 @@
         <Button
             android:id="@+id/button_register"
             android:layout_width="344dp"
-            android:layout_height="56dp"
+            android:layout_height="67dp"
             android:backgroundTint="#FFCA28"
             android:padding="16dp"
             android:text="@string/register"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:textSize="19sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/ViewLogin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:fontFamily="@font/righteous"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/loginText"
+            android:textColor="#66B8FA"
+            android:textSize="16sp" />
     </LinearLayout>
 
 </LinearLayout>

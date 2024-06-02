@@ -6,8 +6,10 @@
     <string name="student">Student</string>
     <string name="login">Login</string>
     <string name="username">Username</string>
-    <string name="password">Password</string>
+    <string name="password">Enter Password</string>
     <string name="logo_description">IkamvaYouth Logo</string>
     <string name="register">Register</string>
-    <string name="email">\@string</string>
+    <string name="email">Enter Email</string>
+    <string name="registerText">Don\'t have a account? Register Here</string>
+    <string name="loginText">Have a account? Login Here</string>
 </resources>

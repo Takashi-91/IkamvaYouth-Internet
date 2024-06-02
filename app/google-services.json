@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758496533293",
+    "project_id": "ikamvayouth-012",
+    "storage_bucket": "ikamvayouth-012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758496533293:android:9ca7e21a9c0ec2174811a4",
+        "android_client_info": {
+          "package_name": "com.example.ikamvayouth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp3KHc-D_AUbFHGv9i86mP5_tyTsYykoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
