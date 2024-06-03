@@ -12,4 +12,6 @@
     <string name="email">Enter Email</string>
     <string name="registerText">Don\'t have a account? Register Here</string>
     <string name="loginText">Have a account? Login Here</string>
+
+
 </resources>

@@ -53,7 +53,8 @@
         <Button
             android:id="@+id/button_register"
             android:layout_width="344dp"
-            android:layout_height="67dp"
+            android:layout_height="58dp"
+            android:background="@drawable/card_background"
             android:backgroundTint="#FFCA28"
             android:padding="16dp"
             android:text="@string/register"
