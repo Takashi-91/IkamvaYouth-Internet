@@ -12,37 +12,50 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IkamvaYouth"
         tools:targetApi="31">
-
+        <activity
+            android:name=".MarksAndFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".TestsAndAssignments"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectHub"
+            android:exported="false" />
+        <activity
+            android:name=".Resources"
+            android:exported="false" />
+        <activity
+            android:name=".Grade"
+            android:exported="false" />
         <activity
             android:name=".StudentDashboard"
             android:exported="true">
+
             <!-- Removed intent-filter -->
         </activity>
-
         <activity
             android:name=".StudentRegister"
             android:exported="true">
+
             <!-- Removed intent-filter -->
         </activity>
-
         <activity
             android:name=".StudentLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ConfirmationScreen"
-            android:theme="@style/Theme.IkamvaYouth"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"
+            android:theme="@style/Theme.IkamvaYouth" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <!-- Removed intent-filter -->
         </activity>
 
