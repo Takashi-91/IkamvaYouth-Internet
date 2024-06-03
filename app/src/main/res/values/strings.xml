@@ -11,6 +11,10 @@
     <string name="register">Register</string>
     <string name="email">Enter Email</string>
     <string name="registerText">Don\'t have a account? Register Here</string>
+    <string name="subject">Have a account? Login Here</string>
+    <string name="resources">Have a account? Login Here</string>
+    <string name="MarkAndResults">Marks And Feedback</string>
+    <string name="TestAndAssignments">Have a account? Login Here</string>
     <string name="loginText">Have a account? Login Here</string>
 
 

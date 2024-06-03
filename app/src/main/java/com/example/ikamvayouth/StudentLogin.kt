@@ -30,7 +30,7 @@ class StudentLogin : AppCompatActivity() {
         editTextPassword = findViewById(R.id.editTextPassword)
         buttonLogin = findViewById(R.id.button_login)
         textViewSignUp = findViewById(R.id.ViewLogin)
-        mAuth = FirebaseAuth.getInstance()
+         
 
 
         buttonLogin.setOnClickListener {
