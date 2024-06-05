@@ -24,7 +24,7 @@ class StudentLogin : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_student_login)
 
-
+        mAuth = FirebaseAuth.getInstance()
 
         editTextUsername = findViewById(R.id.editTextEmail)
         editTextPassword = findViewById(R.id.editTextPassword)
