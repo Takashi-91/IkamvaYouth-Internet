@@ -4,6 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FEEFC7"
     tools:context=".TestsAndAssignments">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="423dp"
+        android:layout_height="760dp"
+        app:srcCompat="@drawable/assignment_page"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-30dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

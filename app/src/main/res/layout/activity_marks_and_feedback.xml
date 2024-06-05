@@ -4,6 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MarksAndFeedback">
+    android:background="#FEEFC7"
+    tools:context="MarksAndFeedback">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="434dp"
+        android:layout_height="793dp"
+        android:background="#FFF9C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:srcCompat="@drawable/mark_feedback" />
 </androidx.constraintlayout.widget.ConstraintLayout>
